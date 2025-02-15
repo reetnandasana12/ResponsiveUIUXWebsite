@@ -30,7 +30,7 @@ const NavBar = () => {
   const [selectButton, setSelectButton] = useState(0);
   const setLogin = useLoginStore((state) => state.setLogin)
   const userType = useLoginStore((state) => state.userType)
-  const location = useLocation();
+  // const location = useLocation();
   const handleQuestionClick = (text: string, index: number) => {
     if(index !== selectButton){
       setSelectButton(index);
