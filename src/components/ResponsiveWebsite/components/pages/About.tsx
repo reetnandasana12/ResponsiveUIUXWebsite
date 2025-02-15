@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div>
           About
-          <Button variant="contained" color="error">About</Button>
+          <Button variant="contained" color="primary">About</Button>
     </div>
   )
 }
